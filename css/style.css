@@ -132,19 +132,43 @@ img {
  @media only screen and (max-width: 780px){
   
     .container {
-        width: 750px;
+        width: 790px;
         margin: 0 auto;
         padding: 0 20px;
     }
 }
 
 @media only screen and (max-width: 480px){
-  
-    .container {
-        width: 750px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-}
 
+    .container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 20px 0px 20px;
+    }
+
+    .row {
+        display: block;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    li, p, img, h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
 
