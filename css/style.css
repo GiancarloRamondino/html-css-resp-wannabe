@@ -127,12 +127,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+ @media only screen and (max-width: 1160px){
+  
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
 
  @media only screen and (max-width: 780px){
   
     .container {
-        width: 790px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
@@ -141,7 +148,7 @@ img {
 @media only screen and (max-width: 480px){
 
     .container {
-        width: 480px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 20px 0px 20px;
     }
@@ -169,6 +176,5 @@ img {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
 }
 
